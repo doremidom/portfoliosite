@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link href="https://fonts.googleapis.com/css?family=Quicksand:300" rel="stylesheet">
+	<title>Dominique Star</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+
+</head>
+<script src="jquery.min.js"></script>
+<script src="http://code.jquery.com/color/jquery.color-2.1.0.js"></script>
+<script src="site.js"></script>
+<body>
+<header>
+<h1>D O M I N I Q U E  . S T A R</h1>
+<left>
+<p>full stack engineer & designer</p></left>
+
+<right>
+<h2>
+<a href="#gallery" class="nav" id="portfolio">portfolio</a> | 
+<a href="#bio" class="nav"> bio </a>| 
+<a href="#resume" class="nav"> resume </a> |
+<a href="#contact" class="nav"> contact </a> 
+</h2>
+</right>
+</header>
+
+<div class="arrow" id="left">
+<
+</div>
+<div class="arrow" id="right">
+>
+</div>
+
+<div id ="project-navigator">
+<div id="gallery">
+	<img class="desaturate" id="inspiro" src="inspiro.jpg">
+	<img class="desaturate" id="zumic" src="zumic.jpg">
+	<img class="desaturate" id="mastermind" src="mastermind.jpg">
+	<img class="desaturate" id="waldo" src="waldo.jpg">
+	<img class="desaturate" id="missile" src="missile.jpg">
+	<img class="desaturate" id="snake" src="snake.jpg">
+	<img class="desaturate" id="infinite" src="infinite.jpg">
+</div>
+
+
+<div id ="project-info">
+<div id="blank" class="description">
+</div>
+<div id="inspiro" class="description">
+<h2>Inspiro</h2>
+<span class="stack">(Rails, JQuery, Node JS, Ruby, HTML, CSS, Swift, MySQL.)</span>
+	<div class="description-box">
+	<p>Role: <b>Lead UI/UX Designer & Back-End Developer</b></p>
+	<p>Winner of the first ever French Tech Ticket (2016). A full-featured website and mobile app for iOS that brings artists from all disciplines together. Find potential collaborators for projects, and post your own portfolio.</p>
+	<p><a href="http://www.inspiro.fr" target="blank">(click here to view)</a></p>
+
+	</div>
+</div>
+<div id="zumic" class="description">
+<h2>Zumic Ticketfiller</h2>
+<span class="stack">(Python, PHP, Bash, HTML, CSS)</span>
+	<div class="description-box">
+	<p>Role: <b>Lead Developer</b></p>
+	<p>This project involved updating and refactoring an existing back-end program for a music blog that aggregates and posts concerts through various APIs and databases.</p>
+	</div>
+</div>
+<div id="mastermind" class="description">
+<h2>Mastermind</h2>
+<span class="stack">(Sinatra, Ruby, HTML, CSS)</span>
+	<div class="description-box">
+	<p>My interpretation of the classic code-breaking game mastermind. The create method of play implements a simple AI that guesses any four-color code, based on feedback it is given. </p>
+	<p><a href="https://morning-wildwood-55675.herokuapp.com/" target="blank">(click here to play!)</a></p>
+	</div>
+</div>
+
+<div id="waldo" class="description">
+	<h2>Waldo</h2>
+	<span class="stack">(Rails, Ruby, HTML, CSS, JQuery)</span>
+	<div class="description-box">
+	<p>A photo tagging-style app with a retro twist! Find Waldo, Wenda, and the Wizard in this large beach scene.</p><p>
+	<a href="https://shielded-tor-86420.herokuapp.com/" target="blank">(click here to play!)</a></p>
+	</div>
+</div>
+
+<div id="missile" class="description">
+	<h2>Missile</h2>
+	<span class="stack">(Canvas, HTML, CSS, JQuery)</span>
+	<div class="description-box">
+	<p>The classic arcade game missile with a graphics downgrade but a rainbow fireworks upgrade! Implemented entirely in Canvas.</p><p>
+	<a href="https://doremidom.github.io/missile/" target="blank">(click here to play!)</a></p>
+	</div>
+</div>
+<div id="snake" class="description">
+	<h2>Snake</h2>
+	<span class="stack">(HTML, CSS, JQuery)</span>
+	<div class="description-box">
+	<p>Everyone's favorite slithery classic, implemented entirely in JQuery.</p>
+	<p><a href="https://doremidom.github.io/snake/" target="blank">(click here to play!)</a></p>
+	</div>
+</div>
+
+<div id="infinite" class="description">
+	<h2>Infinite Scroll (GoT style)</h2>
+	<span class="stack">(HTML, CSS, JQuery)</span>
+	<div class="description-box">
+	<p>A JQuery implementation of the ever-present infinite scroll, but better because it features Khaleesi and Jon Snow.</p>
+	<p><a href="https://doremidom.github.io/infinitescroll/" target="blank">(click here to view!)</a></p>
+	</div>
+</div>
+
+</div>
+</div>
+<div id="bio" class="section">
+<div id="left-panel">
+<img class="desaturate" id="me" src="me.jpg">
+</div>
+<div id="right-panel">
+<p>	Dominique Star's career as a programmer began as a child in the mid 90s, when she accidentally deleted the sound on her mom's Windows 95 computer (don't ask her how). After a short but illustrious career modding the Sims and the infant-simulator Babyz, she retired to the Geocities universe, living a simpler life. Between then and now, she attended Columbia University, graduating in 2013, and spent several years as a songwriter and occasional cheesemonger. </p>
+<p>In 2015, she, along with her co-founder David Su, were accepted to the inagural French Tech Ticket program for their startup idea, Inspiro. This re-ignited her passion for code, and ever since she has been working non-stop to hone her skills as a full-stack developer. Her background in the arts makes her uniquely suited to both front-end and back-end projects. </p>
+</div>
+</div>
+<div id="resume" class="section">
+<p>(<a href="resume.pdf" download>download as pdf</a>)</p>
+<img src="resumepreview.png" id="resume-small">
+
+</div>
+<div id="contact" class="section">
+<p>You can reach me at 
+<script language="JavaScript">
+	var username = "dominiquexstar";
+	var hostname = "gmail.com";
+	var linktext = username + "@" + hostname ;
+	document.write("<a href='" + "mail" + "to:" + username + "@" + hostname + "'>" + linktext + "</a>");
+</script>
+!
+</p>
+</div>
+<div class="project-popup">
+<div id="close"><p>X</p></div>
+<div id="left-panel">
+	
+</div>
+<div id="right-panel">
+<h2>TITLE</h2>
+</div>
+</div>
+<div id="screen">
+</div>
+</body>
+</html>

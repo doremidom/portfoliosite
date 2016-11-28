@@ -1,0 +1,227 @@
+html{
+	min-height: 100%;
+}
+body{
+	min-height: 100%;
+	background: rgb(255,255,255);
+	text-align: center;
+
+
+	color: black;
+	font-family: 'Quicksand', sans-serif;
+	padding-left: 20px;
+	padding-right: 20px;
+	display:flex;
+    justify-content: center;}
+h1{
+	font-size: 4.5vw;
+	margin-bottom: 0;
+	text-align: left;
+}
+h2{
+	font-size: 2.3vw;
+}
+left{
+	float: left;
+
+}
+right{
+	float: right;
+    /*right: 10px;
+    position: fixed;*/
+    padding-right: 1%;
+}
+a:hover{
+	text-decoration: none;
+}
+a {
+	color: black;
+	text-decoration: none;
+}
+
+#gallery{
+	overflow: auto;
+	width: auto;
+	display: flex;
+	overflow-x: hidden;
+}
+header{
+	position: fixed;
+	color: black;
+	top: 0;
+	width: 100vw;
+	background-color: white;
+	z-index: 50;
+}
+header p{
+	margin-left: 20px;
+}
+#project-navigator{
+	margin: auto;
+	top: 119%;
+	width: 75%;
+	height: 500px;
+	overflow: hidden;
+	position: absolute;
+}
+#screen {
+	width: 100vw;
+	height: 100vh;
+	position: absolute;
+	min-height: 1000px;
+	top: 0;
+	left: 0;
+	z-index: 1;
+	background: rgba(0,0,0,0.70);
+	display: none;
+}
+#project-info{
+	width: 100%;
+	margin: auto;
+	height: 70%;
+	color: white;
+	z-index: 2;
+	display: inline-flex;
+}
+#close{
+	width: 20px;
+	height: 20px;
+	position: absolute;
+	top: 1%;
+	left: 97%;
+	font-weight: bold;
+	font-size: 25px;
+	z-index: 10;
+}
+.project-popup{
+	z-index: 52;
+	width: 82%;
+	height: 75%;
+	position: fixed;
+	margin: auto;
+	margin-top: 10%;
+	background-color: white;
+	border: 1px solid black;
+	box-shadow: 5px 5px 5px #888888;
+	text-align: center;
+	display: none;
+}
+.project-popup #left-panel{
+	background-color: black;
+}
+.project-popup p{
+	margin: 0;
+}
+.project-popup h2{
+	text-align: center;
+	font-size: 40px;
+}
+.project-popup p:hover{
+	color: white;
+}
+.bigsquare{
+	width: 18vw;
+	height: 18vw;
+	text-align: center;
+	background-color: white;
+	color: black;
+}
+img.desaturate {
+	filter: grayscale(100%);
+}
+img.desaturate:hover {
+	filter: grayscale(0);
+}
+.description{
+	width: 100%;
+	height: 100%;
+	display: none;
+}
+.description h2{
+	text-align: center;
+	margin-bottom: 5px;
+	color: black;
+}
+.description p{
+	padding: 15px;
+	padding-bottom: 0px;
+	font-size: 16px;
+	margin-top: 0;
+	margin-bottom: 0;
+}
+.description-box{
+	width: 75%;
+	margin: auto;
+	color: black;
+}
+.stack{
+	font-size: 14px;
+	font-style: italic;
+	color: #333;
+} 
+.section{
+	width:75%;
+	height: 50%;
+	padding: 20px;
+	color: black;	
+	position: absolute;
+	margin: auto;
+}
+
+#bio{
+	top: 200%;
+}
+.arrow{
+	font-size: 30px;
+	width: 50px;
+	height: 50px;
+	padding: 20px;
+	position: absolute;
+	top: 125%;
+
+}
+#left{
+	float: left;
+	left: 7%;	
+}
+#right{
+	float: right;
+	right: 7%;
+}
+#me{
+	width: 50%;
+	border-radius: 100%;
+	vertical-align: middle;
+}
+#left-panel{
+	width: 50%;
+	height: 100%;
+	float: left;
+	background-color: white;
+	height: 100%;
+	line-height: 325px;
+}
+#right-panel{
+	width: 50%;
+	height: 100%;
+	float: right;
+	text-align: left;
+	overflow: auto;
+	padding-left: 10px;
+	box-sizing: border-box;
+}
+#bio p{
+	margin-top: 0;
+}
+#resume{
+	top: 300%;
+	height: 50%;
+	overflow: auto;
+}
+#contact{
+	top: 390%;
+	margin-bottom: 20%;
+}
+#resume-small{
+	width: 80%;
+}
