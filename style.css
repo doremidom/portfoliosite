@@ -1,6 +1,5 @@
-@-ms-viewport{
-  width: device-width;
-}
+
+
 html{
 	min-height: 100%;
 }
@@ -52,7 +51,7 @@ header{
 	position: fixed;
 	color: black;
 	top: 0;
-	width: 100vw;
+	width: 100%;
 	background-color: white;
 	z-index: 50;
 }
@@ -185,11 +184,11 @@ img.desaturate:hover {
 }
 #left{
 	float: left;
-	left: 7%;	
+	left: 1%;	
 }
 #right{
 	float: right;
-	right: 7%;
+	right: 1%;
 }
 #me{
 	width: 50%;
@@ -227,4 +226,28 @@ img.desaturate:hover {
 }
 #resume-small{
 	width: 80%;
+}
+@-ms-viewport{
+  width: device-width;
+}
+@media only screen and (max-width: 768px) {
+	header h1{
+		text-align: center;
+	}
+	header h2{
+		font-size: 18px;
+	}
+	header right{
+		text-align: center;
+    	width: 100vw;
+	}
+	header left{
+		display: none;
+	}
+	#gallery{
+		max-width: 200px;
+		margin: auto;
+		overflow-x: initial;
+
+	}
 }
