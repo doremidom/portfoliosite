@@ -24,7 +24,6 @@ h2{
 }
 left{
 	float: left;
-
 }
 right{
 	float: right;
@@ -248,6 +247,6 @@ img.desaturate:hover {
 		overflow-x: initial;
 	}
 	html{
-		width: device-width;
+		display: none;
 	}
 }
