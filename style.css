@@ -199,7 +199,6 @@ img.desaturate:hover {
 	height: 100%;
 	float: left;
 	background-color: white;
-	height: 100%;
 	line-height: 325px;
 }
 #right-panel{
@@ -247,5 +246,8 @@ img.desaturate:hover {
 		max-width: 200px;
 		margin: auto;
 		overflow-x: initial;
+	}
+	html{
+		width: device-width;
 	}
 }
