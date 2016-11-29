@@ -114,6 +114,9 @@ $(document).ready(function() {
         }
     );
 
+    var thewidth = $(window).width()
+    $('div#width').html('<h1>'+thewidth+'</h1>')
+
     
 
 
