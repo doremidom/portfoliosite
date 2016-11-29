@@ -257,8 +257,16 @@ img.desaturate:hover {
 		text-align: center;
     	width: 100vw;
     	background-color: white;
+    	padding-right: 0;
+    	right: initial;
+    	float: initial;
+    	position: initial;
 	}
 	header left{
 		display: none;
+	}
+	body{
+		padding-left: 0;
+		padding-right: 0;
 	}
 }
