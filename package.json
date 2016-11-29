@@ -1,0 +1,24 @@
+{
+  "name": "prosite",
+  "version": "1.0.0",
+  "description": "portfolio site",
+  "main": "jquery.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/doremidom/portfoliosite.git"
+  },
+  "author": "Dominique Star",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/doremidom/portfoliosite/issues"
+  },
+  "homepage": "https://github.com/doremidom/portfoliosite#readme",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^3.1.1",
+    "gulp-postcss": "^6.2.0"
+  }
+}
