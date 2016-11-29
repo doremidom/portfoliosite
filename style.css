@@ -50,7 +50,12 @@ a {
 	flex-shrink: 0;
 	flex-basis: auto;
 }
-#gallery img{display:block}
+#gallery img{display:block;
+min-width: 200px;
+min-height: 200px;
+flex-basis: auto;
+flex-grow: 1;
+}
 header{
 	position: fixed;
 	color: black;
@@ -242,6 +247,7 @@ img.desaturate:hover {
 		max-width: 200px;
 		margin: auto;
 		overflow-x: initial;
+		display: initial;
 	}
 	h1{
 		text-align: center;
