@@ -1,8 +1,9 @@
-/*html{
+html{
 	min-height: 100%;
 	width: 100vw;
 }
-body{
+
+/*body{
 	min-height: 100%;
 	background: rgb(255,255,255);
 	text-align: center;
@@ -19,7 +20,7 @@ body{
 h1{
 	font-size: 4.5vw;
 	margin-bottom: 0;
-	text-align: left;
+	text-align: left;}
 
 h2{
 	font-size: 2.3vw;
@@ -230,7 +231,7 @@ img.desaturate:hover {
   width: device-width;
 }
 @media only screen and (max-width: 768px) {
-/*	#gallery{
+	#gallery{
 		max-width: 200px;
 		margin: auto;
 		overflow-x: initial;
@@ -247,5 +248,5 @@ img.desaturate:hover {
 	}
 	header left{
 		display: none;
-	}*/
+	}
 }
