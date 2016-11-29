@@ -14,7 +14,6 @@ body{
 	padding-right: 20px;
 
 	display:flex;
-    /*justify-content: center;*/
 }
 
 h1{
@@ -47,6 +46,7 @@ a {
 	width: auto;
 	display: flex;
 	overflow-x: hidden;
+	margin: auto;
 }
 header{
 	position: fixed;
@@ -66,6 +66,8 @@ header p{
 	height: 500px;
 	overflow: hidden;
 	position: absolute;
+	left: 0;
+    right: 0;
 }
 #screen {
 	width: 100vw;
@@ -169,6 +171,8 @@ img.desaturate:hover {
 	color: black;	
 	position: absolute;
 	margin: auto;
+	left: 0;
+    right: 0;
 }
 
 #bio{
@@ -244,10 +248,12 @@ img.desaturate:hover {
 	}
 	header h2{
 		font-size: 18px;
+		background-color: white;
 	}
 	header right{
 		text-align: center;
     	width: 100vw;
+    	background-color: white;
 	}
 	header left{
 		display: none;
