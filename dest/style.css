@@ -191,7 +191,7 @@ img.desaturate:hover {
 }
 
 #bio{
-	top: 200%;
+	top: 225%;
 }
 .arrow{
 	font-size: 30px;
@@ -200,8 +200,24 @@ img.desaturate:hover {
 	padding: 20px;
 	position: absolute;
 	top: 125%;
-
 }
+.divider{
+	width: 13%;
+	position: absolute;
+	margin: auto;
+	right: 0;
+	left: 0;
+}
+.divider img{
+	width: 100%;
+}
+#one{
+	top: 195%;
+}
+#two{
+	top: 300%;
+}
+
 #left{
 	float: left;
 	left: 1%;	
@@ -234,14 +250,29 @@ img.desaturate:hover {
 #bio p{
 	margin-top: 0;
 }
+#interstitial1{
+	position: absolute;
+	right: 0;
+	left: 0;
+	top: 35%;
+	width: 30%;
+	height:60%;
+	margin: auto;
+}
+#interstitial1 img{
+	width: 100%;
+}
 #resume{
-	top: 300%;
+	top: 320%;
 	height: 50%;
 	overflow: auto;
 }
 #contact{
 	top: 390%;
 	margin-bottom: 20%;
+}
+#contact img{
+	width: 50%;
 }
 #resume-small{
 	width: 80%;
@@ -254,10 +285,26 @@ img.desaturate:hover {
 		max-width: 200px;
 		margin: auto;
 		overflow-x: initial;
-		display: ;
+		display: fkljdf;
+	}
+	#bio{
+		top: 240%;
+	}
+	#one{
+		top: 220%;
+	}
+	#two{
+		top: 310%;
+	}
+	#contact{
+		top: 420%;
 	}
 	h1{
 		text-align: center;
+	}
+	#interstitial1{
+		width: 90%;
+		top:25%;
 	}
 	header h1{
 		text-align: center;
